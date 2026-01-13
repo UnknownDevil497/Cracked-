@@ -10,18 +10,6 @@ import time
 import sys
 import getpass
 
-# ---------- COLORS ----------
-RED   = "\033[91m"
-BOLD  = "\033[1m"
-BLINK = "\033[5m"
-RESET = "\033[0m"
-CLEAR = "\033[2J\033[H"
-
-# ---------- PASSWORD ----------
-TOOL_PASSWORD = "BFSNALANDADEFENCECYBER!@#$%^&*()_+"
-MAX_TRIES = 3
-
-# ---------- DUMMY API CONFIG ----------
 PHONE_API = {
     "url": "https://zephrex-num.gauravyt566.workers.dev/",
     "key": "ZEPH-L4L2M",
@@ -32,50 +20,13 @@ AADHAAR_API = {
     "url": "https://zephrex-num.gauravyt566.workers.dev/",
     "key": "ZEPH-MU09X",
     "type": "AADHAAR"
-}
+} 
 
-# ---------- SECURITY ----------
-def password_check():
-    print("\n🔐 SECURITY CHECK REQUIRED\n")
-    for _ in range(MAX_TRIES):
-        pwd = input("Enter Tool Password (paste allowed): ")
-        if pwd == TOOL_PASSWORD:
-            print("\n✅ ACCESS GRANTED\n")
-            return
-        else:
-            print("❌ WRONG PASSWORD\n")
-    print("☠️ ACCESS DENIED | TOOL LOCKED ☠️")
-    sys.exit(1)
+# -══
+        ⚔️  UNKNOWN DEVIL FREE CRACKED ⚔️
+        ☠️  FREE USE  ☠️
 
-# ---------- VISUALS ----------
-def banner():
-    print(CLEAR)
-    print(RED + BOLD + r"""
-██████╗ ███████╗███████╗    ███╗   ██╗ █████╗ ██╗      █████╗ ███╗   ██╗██████╗
-██╔══██╗██╔════╝██╔════╝    ████╗  ██║██╔══██╗██║     ██╔══██╗████╗  ██║██╔══██╗
-██████╔╝█████╗  ███████╗    ██╔██╗ ██║███████║██║     ███████║██╔██╗ ██║██║  ██║
-██╔══██╗██╔══╝  ╚════██║    ██║╚██╗██║██╔══██║██║     ██╔══██║██║╚██╗██║██║  ██║
-██████╔╝██╗      ██████║    ██║ ╚████║██║  ██║███████╗██║  ██║██║ ╚████║██████╔╝
-╚═════╝ ╚══════╝╚══════╝    ╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝
-
-        ⚔️  BFS NALANDA DEFENCE CYBER  ⚔️
-        ☠️  AUTHORIZED ACCESS ONLY  ☠️
-""" + RESET)
-
-def skull_loading():
-    print(RED + BOLD + """
-          ☠️ ☠️ ☠️ ☠️ ☠️
-      ☠️  SYSTEM INITIALIZING  ☠️
-          ☠️ ☠️ ☠️ ☠️ ☠️
-""" + RESET)
-    for _ in range(2):
-        for d in ["", ".", "..", "..."]:
-            sys.stdout.write(RED + BLINK + BOLD + f"\rLOADING CYBER MODULES{d}" + RESET)
-            sys.stdout.flush()
-            time.sleep(0.4)
-    print("\n")
-
-def show_commands():
+def show_commands()
     print(RED + BOLD + """
 AVAILABLE COMMANDS
 ------------------
@@ -105,8 +56,8 @@ def clean_response(data):
 
 def print_footer():
     print("\n" + "="*45)
-    print(" THANK FOR PURCHASING")
-    print(" OWNER- BFS NALANDA DEFENCE CYBER FORCE")
+    print(" FREE")
+    print(" OWNER- UNKNOWN DEVIL")
     print("="*45 + "\n")
 
 # ---------- MAIN ----------
